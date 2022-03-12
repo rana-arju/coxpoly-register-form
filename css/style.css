@@ -533,15 +533,25 @@ button {
         Login Page Style 
  ========================================*/
 .success {
-    background-color: #56E865;
     height: 100vh;
     width: 100%;
+    background-color: green;
 }
 
 .success div {
     text-align: center;
     padding-top: 10%;
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
 }
+
+.success img {
+    width: 80%;
+    height: auto;
+}
+
+@media only screen and(max-width: 575px) {}
 
 
 /* ====================================
@@ -601,6 +611,12 @@ button {
 
 @media only screen and (max-width: 575px) {
 
+    /*==================== success page=================== */
+    .success div {
+
+        width: 100%;
+
+    }
     /*================== index page Responsive============= */
     .background .shape {
         height: 140px;
@@ -631,9 +647,10 @@ button {
         padding: 9px 0px 1px 9px;
     }
 
-    .social i{
+    .social i {
         font-size: 20px;
-    } 
+    }
+
     .loginForm h3 {
         font-size: 25px;
     }
