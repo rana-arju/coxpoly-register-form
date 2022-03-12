@@ -537,10 +537,12 @@ button {
     height: 100vh;
     width: 100%;
 }
-.success div{
+
+.success div {
     text-align: center;
     padding-top: 10%;
 }
+
 
 /* ====================================
                 Responsive
@@ -597,7 +599,49 @@ button {
     }
 }
 
-@media screen and (max-width: 575px) {
+@media only screen and (max-width: 575px) {
+
+    /*================== index page Responsive============= */
+    .background .shape {
+        height: 140px;
+        width: 140px;
+    }
+
+    .background {
+        width: 330px;
+        height: 420px;
+
+    }
+
+    .loginForm {
+        height: 500px;
+        width: 300px;
+        padding: 24px;
+        margin-left: 16px;
+        margin-top: 20px;
+    }
+
+    .loginForm button {
+        margin-top: 25px;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .social div {
+        padding: 9px 0px 1px 9px;
+    }
+
+    .social i{
+        font-size: 20px;
+    } 
+    .loginForm h3 {
+        font-size: 25px;
+    }
+
+    .loginForm label {
+        font-size: 14px;
+    }
+
     header h1 {
         font-size: 30px;
     }
@@ -648,4 +692,6 @@ button {
         text-align: center;
         margin: 44px 0 30px;
     }
+
+
 }

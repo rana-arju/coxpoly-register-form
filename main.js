@@ -14,6 +14,3 @@ const login = () =>{
         document.getElementById("error").style.display = "block";
     }
 }
-// const register = () =>{
-//     window.location.href = "success.html";
-// }
