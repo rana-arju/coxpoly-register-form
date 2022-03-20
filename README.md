@@ -5,8 +5,10 @@
 - [x] HTML
 # Please Login With
 ># Email id: ranaarju20@gmail.com 
-> 
+
 > # Id/Roll: 490225
+ # Live Preview: https://coxpoly.netlify.app/
+
 ## First Page
 ![First page](https://github.com/rana-arju/coxpoly-register-form/blob/main/images/1.png)
 ## Second Page
